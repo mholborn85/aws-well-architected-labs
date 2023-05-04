@@ -12,15 +12,15 @@ Your lambda functions will run automatically on the schedule you chose at deploy
 Once you have deployed your modules you will be able to test your Lambda function to get your first set of data in Amazon S3. 
 
 1. Depending on the module which you would like to test the following Lambda functions should be triggered. Find your module and search for the function in the [AWS Lambda Portal](console.aws.amazon.com/lambda/home):
-- **AWS Organization Data Export** module -> **Lambda_Organization_Data_OptimizationDataCollectionStack** Lambda function
-- **Compute Optimizer Collector** module -> **ComputeOptimizer-Trigger-Export** Lambda function
-- **Trusted Advisor** module -> **Accounts-Collector-Function-OptimizationDataCollectionStack** Lambda function
+- **AWS Organization Data Export** module -> **Organization-Data-OptimizationDataCollectionStack** Lambda function
+- **Compute Optimizer Collector** module -> **PREFIX-compute-optimizer-Trigger-Export** Lambda function
+- **Trusted Advisor** module -> **trusted-advisor-Lambda-Function-OptimizationDataCollectionStack** Lambda function
 - **Inventory Collector** module -> **Accounts-Collector-Function-OptimizationDataCollectionStack** Lambda function
 - **ECS Chargeback Data** module -> **Accounts-Collector-Function-OptimizationDataCollectionStack** Lambda function
 - **RDS Utilization Data module** module -> **Accounts-Collector-Function-OptimizationDataCollectionStack** Lambda function
-- **AWS Budgets Export module** module -> **Accounts-Collector-Function-OptimizationDataCollectionStack** Lambda function
+- **AWS Budgets Export module** module -> **budgets-Lambda-Function-OptimizationDataCollectionStack** Lambda function
 - **AWS Transit Gateway Chargeback module** module -> **Accounts-Collector-Function-OptimizationDataCollectionStack** Lambda function
-- **Cost Explorer Rightsizing Recommendations** module -> **Rightsize-Data-Lambda-Function-OptimizationDataCollectionStack** Lambda function
+- **Cost Explorer Rightsizing Recommendations** module -> **cost-explorer-rightsizing-OptimizationDataCollectionStack** Lambda function
 
 
 2. To test your Lambda function open respective Lambda in AWS Console and click **Test**
